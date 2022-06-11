@@ -1,3 +1,3 @@
 release: python manage.py migrate
 
-web: gunicorn Beatsite_Django.wsgi --log-file -
+web: gunicorn FoodAppServer.wsgi --log-file -
